@@ -140,13 +140,14 @@ if (args.router !== 'libosrm') {
   const routingServers = config.routingServers;
   for (const profileName in routingServers[args.router]) {
     const profile = routingServers[args.router][profileName];
-    if ('host' in profile) {
+    if ('host' in profile && 'port' in profile) {
       options.push('-a', profileName + ':' + profile.host);
+      // options.push('-p', profileName + ':' + profile.port);
     } else {
       console.error(
         "Incomplete configuration: profile '" +
           profileName +
-          "' requires 'host'."
+          "' requires 'host' and 'port'."
       );
     }
   }
