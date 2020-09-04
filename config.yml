@@ -16,10 +16,10 @@ routingServers:
   osrm:
     car:
       host: 'https://osrm-byd2qbdela-uc.a.run.app'
-      port: '5000'
+      port: '443'
     bike:
       host: 'https://osrm-byd2qbdela-uc.a.run.app'
-      port: '5000'
+      port: '443'
     foot:
       host: 'https://osrm-byd2qbdela-uc.a.run.app'
-      port: '5000'
+      port: '443'
