@@ -15,11 +15,11 @@ cliArgs:
 routingServers:
   osrm:
     car:
-      host: 'http://osrm.pescherouting.com'
-      port: '80'
+      host: 'https://osrm.pescherouting.com'
+      port: '443'
     bike:
-      host: 'http://osrm.pescherouting.com'
-      port: '80'
+      host: 'https://osrm.pescherouting.com'
+      port: '443'
     foot:
-      host: 'http://osrm.pescherouting.com'
-      port: '80'
+      host: 'https://osrm.pescherouting.com'
+      port: '443'
